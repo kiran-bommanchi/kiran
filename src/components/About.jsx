@@ -1,19 +1,15 @@
 import React from 'react'
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
 import pythonIcon from "@iconify/icons-logos/python"
 import nodeJs from "@iconify/icons-logos/nodejs"
 
 function About({primData,sharedData}) {
-    console.log(primData)
     
     let profilepic = "images/"+sharedData?.basic_info.image
     let sectionName = primData?.basic_info.section_name.about
     let hello=primData.basic_info.description_header
     let about = primData.basic_info.description
-    console.log(sectionName)
 
   return (
     <section id="about">

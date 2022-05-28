@@ -2,8 +2,6 @@ import React from 'react'
 
 function Skills(props) {
     const {resumeBasicInfo,sharedSkills} = props;
-    // console.log(resumeBasicInfo,sharedSkills)
-    // if (props.sharedSkills && props.resumeBasicInfo) {
         const sectionName = sharedSkills.basic_info.skills;
         const skills = sharedSkills.skills.icons.map(function (skills, i) {
           return (
@@ -23,8 +21,6 @@ function Skills(props) {
             </li>
           );
         });
-    //   }
-    console.log(skills,"skills")
 
   return (
     <section id="skills">

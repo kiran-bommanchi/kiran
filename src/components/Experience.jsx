@@ -60,8 +60,6 @@ function Experience(props) {
           );
         });
 
-    //  work =[]
-    // console.log(work,"work")
   return (
     <section id="resume" className="pb-5">
     <div className="col-md-12 mx-auto">

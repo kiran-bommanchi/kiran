@@ -1,5 +1,4 @@
-import logo from "./logo.svg";
-import { useEffect, useState } from "react";
+
 import Header from "./components/Header";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
@@ -10,16 +9,10 @@ import {primaryData} from "./components/resPrimary"
 import Experience from "./components/Experience";
 
 function App() {
-  // const [data] = useState(portfolioData);
-  // const [prim] = useState(primaryData)
+
   let data = portfolioData
   let prim=primaryData
 
-  // useEffect(() => {
-  //   setData(portfolioData);
-  // }, [portfolioData,data]);
-
-  // console.log(data, "data");
   return (
     <div>
       <Header sharedData={data} />

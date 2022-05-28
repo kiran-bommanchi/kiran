@@ -6,11 +6,8 @@ import Switch from "react-switch";
 function Header(props) {
   
     let {sharedData} = props
-    // console.log(sharedData,"sharedData")
     let titles=sharedData?.basic_info.titles?.map(x => [ x.toUpperCase(), 1500 ] ).flat();
-    // console.log(titles,"titles")
     let name =sharedData.basic_info.name
-    // console.log(name,"name")
     const [checked,setChecked] = useState(false);
 
     const   setTheme=()=> {
