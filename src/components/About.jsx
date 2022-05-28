@@ -26,21 +26,21 @@ function About({primData,sharedData}) {
           <div className="polaroid">
             <span style={{ cursor: "auto" }}>
               <img
-                height="250px"
+                height="180px"
                 src={profilepic}
                 alt="Avatar placeholder"
               />
               <Icon
                 icon={pythonIcon}
-                style={{ fontSize: "400%", margin: "9% 3% 0 5%" }}
+                style={{ fontSize: "400%", margin: "9% 3% 0 3%" }}
               />
               <Icon
                 icon={reactIcon}
-                style={{ fontSize: "400%", margin: "9% 3% 0 5%" }}
+                style={{ fontSize: "400%", margin: "9% 3% 0 3%" }}
               />
               <Icon
                 icon={nodeJs}
-                style={{ fontSize: "400%", margin: "9% 3% 0 5%" }}
+                style={{ fontSize: "400%", margin: "9% 3% 0 3%" }}
               />
             </span>
           </div>

@@ -1,11 +1,11 @@
 export const portfolioData = {
   basic_info: {
     name: "Kiran B",
-    titles: ["Reactjs Developer"],
+    titles: ["Reactjs Developer", "Python Developer"],
     social: [
       {
         name: "github",
-        url: "https://github.com",
+        url: "https://github.com/kiran-bommanchi/portfolio",
         class: "fab fa-github",
       },
       {
@@ -29,8 +29,8 @@ export const portfolioData = {
         level: "95",
       },
       {
-        name: "Angular",
-        class: "devicon-angularjs-plain",
+        name: "Python",
+        class: "devicon-python-plain",
         level: "80",
       },
       {
@@ -53,16 +53,16 @@ export const portfolioData = {
         class: "devicon-bootstrap-plain",
         level: "85",
       },
-      {
-        name: "C#",
-        class: "devicon-csharp-plain",
-        level: "65",
-      },
-      {
-        name: "MySql",
-        class: "devicon-mysql-plain",
-        level: "60",
-      },
+      // {
+      //   name: "C#",
+      //   class: "devicon-csharp-plain",
+      //   level: "65",
+      // },
+      // {
+      //   name: "MySql",
+      //   class: "devicon-mysql-plain",
+      //   level: "60",
+      // },
     ],
   },
 };

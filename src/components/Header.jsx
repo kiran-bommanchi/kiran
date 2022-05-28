@@ -27,10 +27,6 @@ function Header(props) {
         setTheme()
     }
 
-  
-  const HeaderTitleTypeAnimation = React.memo( () => {
-    return <Typical className="title-styles" steps={titles} loop={50} />
-  }, (props, prevProp) => true);
 
 
   return (
@@ -44,7 +40,8 @@ function Header(props) {
                 <Typical steps={[name]} wrapper="p" />
               </h1>
               <div className="title-container">
-                <HeaderTitleTypeAnimation />
+              <Typical  className="title-styles" steps={titles} wrapper="p" loop={50}/>
+                {/* <HeaderTitleTypeAnimation /> */}
               </div>
               <Switch
                 checked={checked}
