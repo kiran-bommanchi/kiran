@@ -91,12 +91,12 @@ export const primaryData = {
       mainTech: ["React"],
       logo: "fa-react",
       technologies: [
-        "REST API",
         "Reactjs",
         "JavaScript",
+        "Redux-toolkit",
+        "REST API",
         "Bootstrap",
         "PrimeReact",
-        "Redux-toolkit",
       ],
     },
     {
@@ -106,12 +106,12 @@ export const primaryData = {
       mainTech: ["React"],
       logo: "fa-react",
       technologies: [
-        "Python",
         "Reactjs",
-        "Machine Learning",
         "JavaScript",
-        "Tensorflow",
         "Redux",
+        "Machine Learning",
+        "Python",
+        "Tensorflow",
       ],
     },
     {

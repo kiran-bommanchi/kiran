@@ -13,6 +13,11 @@ export const portfolioData = {
         url: "https://www.instagram.com",
         class: "fab fa-instagram",
       },
+      {
+        name: "linkedin",
+        url: "https://www.linkedin.com/in/kiran-b-60110310b/",
+        class: "fab fa-linkedin",
+      },
     ],
     image: "myProfile.jpg",
   },

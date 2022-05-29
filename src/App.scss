@@ -227,6 +227,11 @@ header h1 {
 	margin-top: 25%;
 	text-align: center;
 }
+.main-div{
+	.bg-primary {
+		background-color: #AE944F !important;
+	}
+}
 
 .main-badge {
 	font-size: 13px !important;
@@ -237,6 +242,12 @@ header h1 {
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.experience-div{
+	.bg-primary {
+		background-color: #f9f5e9 !important;
+	}
 }
 
 .experience-badge {

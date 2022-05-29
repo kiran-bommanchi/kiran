@@ -15,7 +15,7 @@ function Experience(props) {
   
           let mainTech = mainTechnologies.map((technology, i) => {
             return (
-              <Badge pill className="experience-badge mr-2 mb-2" key={i}>
+              <Badge pill className="main-badge mr-2 mb-2" key={i}>
                 {technology}
               </Badge>
             );
@@ -39,7 +39,7 @@ function Experience(props) {
               icon={<i className={`fab ${work.logo} experience-icon`}></i>}
               key={i}
             >
-              <div    style={{ textAlign: "left", marginBottom: "4px" }}>
+              <div   className="main-div" style={{ textAlign: "left", marginBottom: "4px" }}>
                 {mainTech}
               </div>
   
@@ -55,7 +55,7 @@ function Experience(props) {
               >
                 {work.company}
               </h4>
-              <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
+              <div className="experience-div" style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
             </VerticalTimelineElement>
           );
         });
