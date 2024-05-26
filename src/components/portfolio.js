@@ -63,11 +63,11 @@ export const portfolioData = {
       //   class: "devicon-csharp-plain",
       //   level: "65",
       // },
-      // {
-      //   name: "MySql",
-      //   class: "devicon-mysql-plain",
-      //   level: "60",
-      // },
+      {
+        name: "MySql",
+        class: "devicon-mysql-plain",
+        level: "60",
+      },
     ],
   },
 };

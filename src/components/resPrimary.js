@@ -85,9 +85,22 @@ export const primaryData = {
   ],
   experience: [
     {
+      company: "Synechron Technologies ",
+      title: "Software Developer",
+      years: "October.2022 - present",
+      mainTech: ["React","Java"],
+      logo: "fa-react",
+      technologies: [
+        "Reactjs",
+        "JavaScript",
+        "Redux-toolkit",
+        "REST API",
+      ],
+    },
+    {
       company: "Capgemini Technology Services Private Limited",
       title: "Associate Consultant",
-      years: "April.2021 - present",
+      years: "April.2021 - October.2022",
       mainTech: ["React"],
       logo: "fa-react",
       technologies: [
